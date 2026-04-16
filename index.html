@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DIY Sustainable Living Guides</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div><strong>DIY Sustainable Living 🌱</strong></div>
+    <nav>
+      <a href="guides.html">Guides</a>
+      <a href="#impact">Impact</a>
+      <a href="blog.html">Blog</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+       <button class="btn" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Live Smart, Live Sustainable</h1>
+    <p>Premium eco-friendly lifestyle platform for students and families.</p>
+    <button class="btn" onclick="scrollToGuides()">Explore Guides</button>
+  </section>
+
+  <section id="guides" class="section">
+    <h2>🌿 Featured Guides</h2>
+    <div class="grid">
+      <div class="card"><img src="https://www.shutterstock.com/image-photo/hand-crushing-plastic-bottle-wooden-260nw-2208870563.jpg"><h3>Reduce Plastic</h3></div>
+      <div class="card"><img src="https://img.freepik.com/premium-vector/save-water-save-life-conservation-poster_1301788-445.jpg?semt=ais_hybrid&w=740&q=80"><h3>Save Water</h3></div>
+      <div class="card"><img src="https://t4.ftcdn.net/jpg/03/23/65/91/360_F_323659172_qAAbGT4OE9UTELLC87MZqHKfurkYWg8C.jpg"><h3>Green Energy</h3></div>
+      <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpZCIuoeIXD-mG2D9yX7aTA-wAjYGNtCFLwQ&s"><h3>Eco Travel</h3></div>
+    </div>
+  </section>
+
+  <section class="section">
+  <h2>📅 Daily Eco Challenge</h2>
+  <div class="card">
+    <p><strong>Today:</strong> Avoid single-use plastic for the whole day ♻</p>
+  </div>
+  </section>
+
+  <section class="section">
+  <h2>📈 Eco Progress Tracker</h2>
+  <div class="counter-wrap">
+    <div class="counter"><h3 id="tipsRead">0</h3><p>Tips Read</p></div>
+    <div class="counter"><h3 id="waterSaved">0</h3><p>Water Saved (L)</p></div>
+    <div class="counter"><h3 id="plasticReduced">0</h3><p>Plastic Reduced (kg)</p></div>
+    <div class="counter-wrap">
+      <div class="counter"><h3 id="c1">0</h3><p>Plastic Saved</p></div>
+      <div class="counter"><h3 id="c2">0</h3><p>Water Saved</p></div>
+      <div class="counter"><h3 id="c3">0</h3><p>Trees Planted</p></div>
+    </div>
+  </div>
+  </section>
+
+  <section id="impact" class="section">
+    
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
